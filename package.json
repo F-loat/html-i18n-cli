@@ -1,6 +1,6 @@
 {
   "name": "html-i18n-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "HTML 国际化工具",
   "main": "lib/index.js",
   "bin": {
