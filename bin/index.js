@@ -18,9 +18,10 @@ program
 
 program
   .command('translate [textsfile]')
+  .option('-t, --to', '目标语言')
   .description('翻译 JSON 文件')
-  .action(file => {
-    require('../lib/translate')(file)
+  .action((file, options) => {
+    require('../lib/translate')(file, options)
   })
 
 program
