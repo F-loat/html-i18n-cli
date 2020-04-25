@@ -4,7 +4,7 @@
   "description": "HTML 国际化工具",
   "main": "lib/index.js",
   "bin": {
-    "html": "bin/index.js"
+    "html": "bin/html.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
