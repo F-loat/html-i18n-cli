@@ -10,14 +10,14 @@ program
   })
 
 program
-  .command('render [htmlfile] [textsfile]')
+  .command('render [htmlfile] [jsonfile]')
   .description('生成 HTML 文件')
-  .action((htmlfile, textsfile) => {
-    require('../lib/render')(htmlfile, textsfile)
+  .action((htmlfile, jsonfile) => {
+    require('../lib/render')(htmlfile, jsonfile)
   })
 
 program
-  .command('translate [textsfile]')
+  .command('translate [jsonfile]')
   .option('-t, --to', '目标语言', 'zh')
   .option('-n, --number', '每 n 条数据保存一次', 50)
   .description('翻译 JSON 文件')
