@@ -18,7 +18,8 @@ program
 
 program
   .command('translate [textsfile]')
-  .option('-t, --to', '目标语言')
+  .option('-t, --to', '目标语言', 'zh')
+  .option('-n, --number', '每 n 条数据保存一次', 50)
   .description('翻译 JSON 文件')
   .action((file, options) => {
     require('../lib/translate')(file, options)

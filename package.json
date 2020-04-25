@@ -14,6 +14,7 @@
     "axios": "^0.19.2",
     "commander": "^5.1.0",
     "convert-excel-to-json": "^1.6.1",
+    "dayjs": "^1.8.25",
     "json2xls": "^0.1.2",
     "lodash": "^4.17.15",
     "posthtml-parser": "^0.4.2",
