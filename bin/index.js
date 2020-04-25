@@ -23,4 +23,11 @@ program
     require('../lib/translate')(file)
   })
 
+program
+  .command('convert [file]')
+  .description('转换 JSON/EXCEL 文件')
+  .action(file => {
+    require('../lib/convert')(file)
+  })
+
 program.parse(process.argv)
