@@ -32,4 +32,8 @@ program
     require('../lib/convert')(file)
   })
 
-program.parse(process.argv)
+try {
+  program.parse(process.argv)
+} catch (err) {
+  console.log(err.message)
+}
