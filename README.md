@@ -24,6 +24,9 @@ html parse test.html
 html translate test.json
 ```
 
+  * -t zh 指定[目标语言](http://api.fanyi.baidu.com/doc/21)
+  * -n 50 指定更新频率
+
 3. 还原 html 文件
 
 ``` sh
