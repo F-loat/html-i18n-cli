@@ -46,3 +46,8 @@ html convert test.json
 ``` sh
 html convert test.xlsx
 ```
+
+## 相关项目
+
+* [VSCode 插件](https://github.com/F-loat/vscode-plugin-html-i18n)
+
