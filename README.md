@@ -26,6 +26,8 @@ html translate test.json
 
   * -t zh 指定[目标语言](http://api.fanyi.baidu.com/doc/21)
   * -n 50 指定更新频率
+  * --appid 百度翻译 APPID
+  * --serret 百度翻译 SECRET
 
 3. 还原 HTML 文件
 

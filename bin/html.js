@@ -19,7 +19,9 @@ program
 program
   .command('translate [jsonfile]')
   .option('-t, --to', '目标语言', 'zh')
-  .option('-n, --number', '每 n 条数据保存一次', 50)
+  .option('-n, --number', '每 n 条数据保存一次', 20)
+  .option('-a, --appid', '百度翻译 APPID', '20200424000428633')
+  .option('-s, --secret', '百度翻译 SECRET', 'ptBeUtXqXC0WE4vQUWcx')
   .description('翻译 JSON 文件')
   .action((file, options) => {
     require('../lib/translate')(file, options)
